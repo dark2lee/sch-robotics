@@ -1,3 +1,4 @@
-from greet import greet
+def greet(name):
+    return f"hello, {name}"
 
-print(greet('robotics'))
+print(greet('robotics'), '- from school')
